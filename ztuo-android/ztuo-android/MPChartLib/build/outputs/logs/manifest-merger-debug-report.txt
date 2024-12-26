@@ -1,0 +1,31 @@
+-- Merging decision tree log ---
+manifest
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml:2:1-13:12
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml:2:1-13:12
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml:2:1-13:12
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml:2:1-13:12
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml:2:1-13:12
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml:2:1-13:12
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml:2:1-13:12
+	package
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml:2:11-49
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml
+	android:versionName
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml:2:1-13:12
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml
+	xmlns:android
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml:2:1-13:12
+	android:versionCode
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml:2:1-13:12
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml
+uses-sdk
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\AndroidManifest.xml

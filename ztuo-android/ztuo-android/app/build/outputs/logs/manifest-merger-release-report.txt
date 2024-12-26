@@ -1,0 +1,842 @@
+-- Merging decision tree log ---
+manifest
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:2:1-223:12
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:2:1-223:12
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:2:1-223:12
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:2:1-223:12
+MERGED from [:lib-zxing] K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\lib-zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-18:12
+MERGED from [:MPChartLib] K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-18:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ab7044de1bfd19e94a17211b795f48c7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a85b7a1b9c898b3490cfb62b93ee0f5f\AndroidManifest.xml:2:1-11:12
+MERGED from [com.yanzhenjie:permission:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2425a8045466708f10ddb31940505f2a\AndroidManifest.xml:17:1-33:12
+MERGED from [com.gyf.barlibrary:barlibrary:2.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\42162dc0648f68d6b8e4206053df1159\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.arcadefire:nice-spinner:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b82fc36e8386c118393f18bc893bfc98\AndroidManifest.xml:2:1-11:12
+MERGED from [com.sunfusheng:marqueeview:1.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f1a45f3bbefcc0449ca00941c265813f\AndroidManifest.xml:2:1-17:12
+MERGED from [com.xw.repo:bubbleseekbar:3.20] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\930a1892e8b1535a93c85a9a79eb594d\AndroidManifest.xml:2:1-13:12
+MERGED from [com.yanzhenjie.alertdialog:alertdialog:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9e1d00596b6ae200edd907253aa85b3\AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b1bc943b46a061b1d34eccfc5ff4c1f1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.lcodecorex:tkrefreshlayout:1.0.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bdca3279c60a2db127e707ba63e4fe6e\AndroidManifest.xml:2:1-17:12
+MERGED from [com.yanzhenjie:recyclerview-swipe:1.1.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4e1bf7f8fa506577c1c055bef08e2364\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\12c8e464e3e57f2f9f3a57976ed3951e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\609cf98249d4b2145f77d53d5dc9d8d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ac825c6fe1ba75abf31ad1f97d840c61\AndroidManifest.xml:2:1-7:12
+MERGED from [com.geetest.sensebot:sensebot:4.2.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41c90dbaf7af6186231b0c9afaf1ce05\AndroidManifest.xml:2:1-9:12
+MERGED from [com.youth.banner:banner:1.4.10] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0d24470966b6c86581723094dbfe201b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f3050d81012d1436b19a420e125f2af\AndroidManifest.xml:2:1-11:12
+MERGED from [com.kyleduo.switchbutton:library:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0c332cdd0ffba3492a51c26e2b14bba3\AndroidManifest.xml:2:1-12:12
+MERGED from [:captchasdk-release-1.0.2:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\507385970992b6a45a2ff5d770ad8725\AndroidManifest.xml:2:1-24:12
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47cf5b20e85758a8a2002929bb334ff9\AndroidManifest.xml:2:1-14:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f86a6c6e42b951171cd1983203d9a1e9\AndroidManifest.xml:2:1-11:12
+MERGED from [com.contrarywind:Android-PickerView:4.1.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\61c323b22a251e62734f43f815d4c25c\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9a91f59839afe79c86dfc09567016cc5\AndroidManifest.xml:16:1-19:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\aaa1c430071b1b2ce4a5f6c2b2a985ff\AndroidManifest.xml:2:1-17:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c71f9df2fade418ac8330d21e6fd01ad\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a8019f5275ff37b9195449d354bd9a89\AndroidManifest.xml:17:1-22:12
+MERGED from [com.scwang.smart:refresh-layout-kernel:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6ac960ffc44c131f308273ac370efa5c\AndroidManifest.xml:2:1-11:12
+MERGED from [com.scwang.smart:refresh-header-classics:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\db71c3ffb7e435decf1c0bd8a2b319fc\AndroidManifest.xml:2:1-11:12
+MERGED from [com.scwang.smart:refresh-footer-classics:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5e0bf943381890e2cdc6cbbbcbc2d217\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\644d9bf41709e28d71d76167e339c25d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f871d766d6560a8ce5fe2f7c67bc933c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c0169604cca2b3ebb2a881db2cb2c231\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9660ecbf6a29a29862238e23e4d3de1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6663f45c09a3a3dd2aaabddaa3b7b216\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\13ea27b69fefdde6b39a7045112db6ad\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e9dc900bd04bde011755403e78cb3a9a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6923aa4115be520b4236fddad7517ac3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fb92efe5949abfa2f41962ab8348bf2c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cd1f02847055740ac653d0e044043185\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\95d046f4e4f0522bf72ab423ed5f8ae5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b1190903d88987316ab045a9f81c6292\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0c9ca210b074c54a737275c354243ecd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\98b4d265ed8bd52866b7a3b112e80015\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6a62e49dfe34a782eea59a155f8ca6b9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f71030adcb2e94a263651d2d05267fb2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ff30c081aed2819161da33d8f602f509\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d040ff8cb650ebc50a49777719f60e50\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\92e1c37f14c678d1a5e0a2f5c2b67891\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4e1f085c37457e67fbc182e6a2f8bcf2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\07179d49a07fe7463f308a7dd0d91cc6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6373b73ce662c17307ce0851ea447d21\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4c5420655858e2eee01bbe6f1f56ffcd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bfe6d065851d7f5d9c3d7178d5edd8d1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37e68b8e70c4263c00d8940a65ea9e6b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\00e018fcfefdf3d12bbc91a1ec1c1e30\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b82a9c36c1e72d471b0d9a8f4ccd620d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.yanzhenjie:loading:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1cb69121adfea5f0b740cedc1906714a\AndroidManifest.xml:17:1-25:12
+MERGED from [com.contrarywind:wheelview:4.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c26f5a79a123dddffc63b80ac1eaae17\AndroidManifest.xml:2:1-17:12
+MERGED from [com.scwang.smart:refresh-drawable-paint:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e88d8dd2e268d0a78f2e252647c843c3\AndroidManifest.xml:2:1-11:12
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:2:1-223:12
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:2:1-223:12
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:2:1-223:12
+	package
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:3:5-25
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:2:1-223:12
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:2:1-223:12
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [:captchasdk-release-1.0.2:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\507385970992b6a45a2ff5d770ad8725\AndroidManifest.xml:11:5-67
+MERGED from [:captchasdk-release-1.0.2:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\507385970992b6a45a2ff5d770ad8725\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CAMERA
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:6:22-62
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:7:5-76
+MERGED from [:captchasdk-release-1.0.2:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\507385970992b6a45a2ff5d770ad8725\AndroidManifest.xml:13:5-76
+MERGED from [:captchasdk-release-1.0.2:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\507385970992b6a45a2ff5d770ad8725\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:8:5-79
+MERGED from [:captchasdk-release-1.0.2:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\507385970992b6a45a2ff5d770ad8725\AndroidManifest.xml:12:5-79
+MERGED from [:captchasdk-release-1.0.2:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\507385970992b6a45a2ff5d770ad8725\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:9:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:13:5-83
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:13:22-80
+uses-permission#android.permission.BLUETOOTH
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:17:22-65
+application
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:20:5-221:19
+MERGED from [:lib-zxing] K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\lib-zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-16:19
+MERGED from [:lib-zxing] K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\lib-zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-16:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ab7044de1bfd19e94a17211b795f48c7\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ab7044de1bfd19e94a17211b795f48c7\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a85b7a1b9c898b3490cfb62b93ee0f5f\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a85b7a1b9c898b3490cfb62b93ee0f5f\AndroidManifest.xml:9:5-20
+MERGED from [com.yanzhenjie:permission:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2425a8045466708f10ddb31940505f2a\AndroidManifest.xml:24:5-31:19
+MERGED from [com.yanzhenjie:permission:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2425a8045466708f10ddb31940505f2a\AndroidManifest.xml:24:5-31:19
+MERGED from [com.github.arcadefire:nice-spinner:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b82fc36e8386c118393f18bc893bfc98\AndroidManifest.xml:9:5-47
+MERGED from [com.github.arcadefire:nice-spinner:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b82fc36e8386c118393f18bc893bfc98\AndroidManifest.xml:9:5-47
+MERGED from [com.sunfusheng:marqueeview:1.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f1a45f3bbefcc0449ca00941c265813f\AndroidManifest.xml:11:5-15:19
+MERGED from [com.sunfusheng:marqueeview:1.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f1a45f3bbefcc0449ca00941c265813f\AndroidManifest.xml:11:5-15:19
+MERGED from [com.xw.repo:bubbleseekbar:3.20] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\930a1892e8b1535a93c85a9a79eb594d\AndroidManifest.xml:11:5-20
+MERGED from [com.xw.repo:bubbleseekbar:3.20] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\930a1892e8b1535a93c85a9a79eb594d\AndroidManifest.xml:11:5-20
+MERGED from [com.lcodecorex:tkrefreshlayout:1.0.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bdca3279c60a2db127e707ba63e4fe6e\AndroidManifest.xml:11:5-15:19
+MERGED from [com.lcodecorex:tkrefreshlayout:1.0.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bdca3279c60a2db127e707ba63e4fe6e\AndroidManifest.xml:11:5-15:19
+MERGED from [:captchasdk-release-1.0.2:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\507385970992b6a45a2ff5d770ad8725\AndroidManifest.xml:15:5-22:19
+MERGED from [:captchasdk-release-1.0.2:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\507385970992b6a45a2ff5d770ad8725\AndroidManifest.xml:15:5-22:19
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47cf5b20e85758a8a2002929bb334ff9\AndroidManifest.xml:12:5-20
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47cf5b20e85758a8a2002929bb334ff9\AndroidManifest.xml:12:5-20
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\aaa1c430071b1b2ce4a5f6c2b2a985ff\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\aaa1c430071b1b2ce4a5f6c2b2a985ff\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c71f9df2fade418ac8330d21e6fd01ad\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c71f9df2fade418ac8330d21e6fd01ad\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f71030adcb2e94a263651d2d05267fb2\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f71030adcb2e94a263651d2d05267fb2\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ff30c081aed2819161da33d8f602f509\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ff30c081aed2819161da33d8f602f509\AndroidManifest.xml:22:5-23:19
+MERGED from [com.contrarywind:wheelview:4.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c26f5a79a123dddffc63b80ac1eaae17\AndroidManifest.xml:11:5-15:19
+MERGED from [com.contrarywind:wheelview:4.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c26f5a79a123dddffc63b80ac1eaae17\AndroidManifest.xml:11:5-15:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f71030adcb2e94a263651d2d05267fb2\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:28:9-35
+	android:label
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:24:9-41
+	android:roundIcon
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:27:9-47
+	android:largeHeap
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:25:9-33
+	android:icon
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:23:9-42
+	android:allowBackup
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:29:9-60
+	android:networkSecurityConfig
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:26:9-53
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:21:9-42
+activity#com.bizzan.ui.activity.MyAttendActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:30:9-33:58
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:32:13-49
+	android:windowSoftInputMode
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:33:13-55
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:31:13-57
+activity#com.bizzan.ui.activity.DetailActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:34:9-38:58
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:37:13-49
+	android:windowSoftInputMode
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:38:13-55
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:36:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:35:13-55
+activity#com.bizzan.ui.activity.ActivityList
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:39:9-42:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:42:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:41:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:40:13-53
+activity#com.bizzan.ui.wallet.SelectCoinActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:43:9-46:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:46:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:45:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:44:13-57
+activity#com.bizzan.ui.wallet.SelectAccountActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:47:9-50:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:50:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:49:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:48:13-60
+activity#com.bizzan.ui.wallet.WalletListActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:51:9-54:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:54:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:53:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:52:13-57
+provider#android.support.v4.content.FileProvider
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:56:9-65:20
+	android:grantUriPermissions
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:61:13-47
+	android:enabled
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:59:13-35
+	android:authorities
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:58:13-62
+	android:exported
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:57:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:62:13-64:54
+	android:resource
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:64:17-51
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:63:17-67
+meta-data#UMENG_APPKEY
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:66:9-68:56
+	android:value
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:68:13-53
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:67:13-40
+activity#com.bizzan.ui.home.MainActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:70:9-74:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:74:13-49
+	android:launchMode
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:73:13-44
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:72:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:71:13-49
+activity#com.bizzan.ui.login.LoginActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:75:9-79:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:79:13-49
+	android:launchMode
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:78:13-44
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:77:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:76:13-51
+activity#com.bizzan.ui.common.LeadActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:80:9-83:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:83:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:82:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:81:13-51
+activity#com.bizzan.ui.common.PermissionActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:84:9-87:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:87:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:86:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:85:13-57
+activity#com.bizzan.ui.common.StartActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:88:9-98:20
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:92:13-49
+	android:hardwareAccelerated
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:91:13-47
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:90:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:89:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:93:13-97:29
+action#android.intent.action.MAIN
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:94:17-69
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:94:25-66
+category#android.intent.category.LAUNCHER
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:96:17-77
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:96:27-74
+activity#com.bizzan.ui.kline.KlineActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:99:9-102:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:102:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:101:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:100:13-51
+activity#com.bizzan.ui.signup.SignUpActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:103:9-107:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:107:13-49
+	android:launchMode
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:106:13-44
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:105:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:104:13-53
+activity#com.bizzan.ui.forgot_pwd.ForgotPwdActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:108:9-111:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:111:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:110:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:109:13-60
+activity#com.bizzan.ui.myinfo.MyInfoActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:112:9-116:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:116:13-49
+	android:launchMode
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:115:13-44
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:114:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:113:13-53
+activity#com.bizzan.ui.wallet.WalletActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:117:9-120:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:120:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:119:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:118:13-53
+activity#com.bizzan.ui.wallet_detail.WalletDetailActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:121:9-124:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:124:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:123:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:122:13-66
+activity#com.bizzan.ui.my_order.MyOrderActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:125:9-128:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:128:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:127:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:126:13-56
+activity#com.bizzan.ui.my_ads.AdsActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:129:9-132:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:132:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:131:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:130:13-50
+activity#com.bizzan.ui.message.MessageActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:133:9-136:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:136:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:135:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:134:13-55
+activity#com.bizzan.ui.credit.CreditActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:137:9-140:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:140:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:139:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:138:13-53
+activity#com.bizzan.ui.setting.SettingActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:141:9-144:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:144:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:143:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:142:13-55
+activity#com.bizzan.ui.feed.FeedbackActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:145:9-148:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:148:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:147:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:146:13-53
+activity#com.bizzan.ui.aboutus.AboutUsActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:149:9-152:52
+	android:screenOrientation
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:152:13-49
+	android:configChanges
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:151:13-59
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:150:13-55
+activity#com.bizzan.ui.releaseAd.ReleaseAdsActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:153:9-69
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:153:19-66
+activity#com.bizzan.ui.country.CountryActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:154:9-64
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:154:19-61
+activity#com.bizzan.ui.account_pwd.AccountPwdActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:155:9-71
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:155:19-68
+activity#com.bizzan.ui.buy_or_sell.C2CBuyOrSellActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:156:9-73
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:156:19-70
+activity#com.bizzan.ui.recharge.RechargeActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:157:9-66
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:157:19-63
+activity#com.bizzan.ui.extract.ExtractActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:158:9-64
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:158:19-61
+activity#com.bizzan.ui.ctc.CTCActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:159:9-56
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:159:19-53
+activity#com.bizzan.ui.ctc.CTCOrderDetailActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:160:9-67
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:160:19-64
+activity#com.bizzan.ui.extract.AddressActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:161:9-64
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:161:19-61
+activity#com.bizzan.ui.bind_phone.BindPhoneActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:162:9-69
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:162:19-66
+activity#com.bizzan.ui.bind_email.BindEmailActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:163:9-69
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:163:19-66
+activity#com.bizzan.ui.bind_email.EmailActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:164:9-65
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:164:19-62
+activity#com.bizzan.ui.edit_login_pwd.EditLoginPwdActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:165:9-76
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:165:19-73
+activity#com.bizzan.ui.bind_phone.PhoneActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:166:9-65
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:166:19-62
+activity#com.bizzan.ui.change_phone.ChangePhoneActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:167:9-73
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:167:19-70
+activity#com.bizzan.ui.change_phone.ChangeLeadActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:168:9-72
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:168:19-69
+activity#com.bizzan.ui.message_detail.MessageDetailActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:169:9-77
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:169:19-74
+activity#com.bizzan.ui.lock.LockActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:170:9-58
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:170:19-55
+activity#com.bizzan.ui.set_lock.SetLockActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:171:9-173:47
+	android:launchMode
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:173:13-44
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:172:13-56
+activity#com.bizzan.ui.order_detail.OrderDetailActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:174:9-73
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:174:19-70
+activity#com.bizzan.ui.appeal.AppealActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:175:9-62
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:175:19-59
+activity#com.bizzan.ui.account_pwd.EditAccountPwdActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:176:9-75
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:176:19-72
+activity#com.bizzan.ui.account_pwd.ResetAccountPwdActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:177:9-76
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:177:19-73
+activity#com.bizzan.ui.chatlist.ChatListActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:178:9-66
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:178:19-63
+activity#com.bizzan.ui.chat.ChatActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:179:9-58
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:179:19-55
+activity#com.bizzan.ui.entrust.TrustListActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:180:9-66
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:180:19-63
+activity#com.bizzan.ui.entrust.TrustListConstractActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:181:9-75
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:181:19-72
+activity#com.bizzan.ui.entrust.TrustlistconstractdataActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:182:9-79
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:182:19-76
+activity#com.bizzan.ui.entrust.TrustDetailActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:183:9-68
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:183:19-65
+activity#com.bizzan.ui.myEntrust.MyEntrustActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:184:9-68
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:184:19-65
+activity#com.bizzan.ui.bind_account.BindAccountActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:185:9-73
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:185:19-70
+activity#com.bizzan.ui.bind_account.BindAliActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:186:9-69
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:186:19-66
+activity#com.bizzan.ui.bind_account.BindBankActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:187:9-70
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:187:19-67
+activity#com.bizzan.ui.bind_account.BindWeiChatActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:188:9-73
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:188:19-70
+activity#com.bizzan.ui.aboutus.AboutJianJieActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:189:9-69
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:189:19-66
+activity#com.bizzan.ui.aboutus.AboutWeiXinActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:190:9-68
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:190:19-65
+activity#com.bizzan.ui.wallet.ChongBiJLActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:191:9-65
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:191:19-62
+activity#com.bizzan.ui.wallet.TiBiJLActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:192:9-62
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:192:19-59
+activity#com.bizzan.ui.setting.GongGaoActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:193:9-64
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:193:19-61
+activity#com.bizzan.ui.setting.HelpActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:194:9-61
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:194:19-58
+activity#com.bizzan.ui.message_detail.MessageHelpActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:195:9-75
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:195:19-72
+activity#com.bizzan.ui.setting.HelpXinShouActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:196:9-68
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:196:19-65
+activity#com.bizzan.ui.setting.HelpChangjianActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:197:9-70
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:197:19-67
+activity#com.bizzan.ui.setting.HelpJiaoyiActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:198:9-67
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:198:19-64
+activity#com.bizzan.ui.setting.HelpBizhongActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:199:9-68
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:199:19-65
+activity#com.bizzan.ui.setting.HelpHangqingActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:200:9-69
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:200:19-66
+activity#com.bizzan.ui.setting.HelpTiaokuanActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:201:9-69
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:201:19-66
+activity#com.bizzan.ui.setting.HelpQitaActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:202:9-65
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:202:19-62
+activity#com.bizzan.ui.credit.CreditInfoActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:203:9-66
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:203:19-63
+activity#com.bizzan.ui.seller.SellerApplyActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:204:9-67
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:204:19-64
+activity#com.bizzan.ui.seller.SellerApplyCommitActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:205:9-73
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:205:19-70
+activity#com.bizzan.ui.aboutus.AddUrlActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:206:9-63
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:206:19-60
+activity#com.bizzan.ui.wallet.OverturnActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:207:9-209:47
+	android:launchMode
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:209:13-44
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:208:13-55
+activity#com.bizzan.ui.setting.LanguageActivity
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:210:9-65
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:210:19-62
+service#com.bizzan.serivce.MyService
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:212:9-54
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:212:18-51
+service#com.bizzan.serivce.MyTextService
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:213:9-58
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:213:18-55
+service#com.bizzan.serivce.MyTextService_contract
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:214:9-67
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:214:18-64
+receiver#com.maiml.updatelibrary.receiver.InstallReceiver
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:216:9-220:20
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:216:19-82
+intent-filter#action:name:android.intent.action.DOWNLOAD_COMPLETE
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:217:13-219:29
+	android:priority
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:217:28-49
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:218:17-82
+	android:name
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml:218:25-79
+uses-sdk
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml
+MERGED from [:lib-zxing] K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\lib-zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-44
+MERGED from [:lib-zxing] K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\lib-zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-44
+MERGED from [:MPChartLib] K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-43
+MERGED from [:MPChartLib] K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\MPChartLib\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-43
+MERGED from [com.android.support:design:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ab7044de1bfd19e94a17211b795f48c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ab7044de1bfd19e94a17211b795f48c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a85b7a1b9c898b3490cfb62b93ee0f5f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a85b7a1b9c898b3490cfb62b93ee0f5f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.yanzhenjie:permission:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2425a8045466708f10ddb31940505f2a\AndroidManifest.xml:20:5-22:41
+MERGED from [com.yanzhenjie:permission:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2425a8045466708f10ddb31940505f2a\AndroidManifest.xml:20:5-22:41
+MERGED from [com.gyf.barlibrary:barlibrary:2.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\42162dc0648f68d6b8e4206053df1159\AndroidManifest.xml:8:5-10:41
+MERGED from [com.gyf.barlibrary:barlibrary:2.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\42162dc0648f68d6b8e4206053df1159\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.arcadefire:nice-spinner:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b82fc36e8386c118393f18bc893bfc98\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.arcadefire:nice-spinner:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b82fc36e8386c118393f18bc893bfc98\AndroidManifest.xml:5:5-7:41
+MERGED from [com.sunfusheng:marqueeview:1.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f1a45f3bbefcc0449ca00941c265813f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.sunfusheng:marqueeview:1.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f1a45f3bbefcc0449ca00941c265813f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.xw.repo:bubbleseekbar:3.20] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\930a1892e8b1535a93c85a9a79eb594d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.xw.repo:bubbleseekbar:3.20] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\930a1892e8b1535a93c85a9a79eb594d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.yanzhenjie.alertdialog:alertdialog:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9e1d00596b6ae200edd907253aa85b3\AndroidManifest.xml:6:5-8:41
+MERGED from [com.yanzhenjie.alertdialog:alertdialog:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9e1d00596b6ae200edd907253aa85b3\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b1bc943b46a061b1d34eccfc5ff4c1f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b1bc943b46a061b1d34eccfc5ff4c1f1\AndroidManifest.xml:20:5-44
+MERGED from [com.lcodecorex:tkrefreshlayout:1.0.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bdca3279c60a2db127e707ba63e4fe6e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.lcodecorex:tkrefreshlayout:1.0.7] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bdca3279c60a2db127e707ba63e4fe6e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.yanzhenjie:recyclerview-swipe:1.1.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4e1bf7f8fa506577c1c055bef08e2364\AndroidManifest.xml:21:5-23:41
+MERGED from [com.yanzhenjie:recyclerview-swipe:1.1.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4e1bf7f8fa506577c1c055bef08e2364\AndroidManifest.xml:21:5-23:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\12c8e464e3e57f2f9f3a57976ed3951e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\12c8e464e3e57f2f9f3a57976ed3951e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\609cf98249d4b2145f77d53d5dc9d8d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\609cf98249d4b2145f77d53d5dc9d8d6\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ac825c6fe1ba75abf31ad1f97d840c61\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ac825c6fe1ba75abf31ad1f97d840c61\AndroidManifest.xml:5:5-43
+MERGED from [com.geetest.sensebot:sensebot:4.2.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41c90dbaf7af6186231b0c9afaf1ce05\AndroidManifest.xml:5:5-7:41
+MERGED from [com.geetest.sensebot:sensebot:4.2.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41c90dbaf7af6186231b0c9afaf1ce05\AndroidManifest.xml:5:5-7:41
+MERGED from [com.youth.banner:banner:1.4.10] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0d24470966b6c86581723094dbfe201b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.youth.banner:banner:1.4.10] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0d24470966b6c86581723094dbfe201b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f3050d81012d1436b19a420e125f2af\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9f3050d81012d1436b19a420e125f2af\AndroidManifest.xml:7:5-9:41
+MERGED from [com.kyleduo.switchbutton:library:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0c332cdd0ffba3492a51c26e2b14bba3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.kyleduo.switchbutton:library:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0c332cdd0ffba3492a51c26e2b14bba3\AndroidManifest.xml:8:5-10:41
+MERGED from [:captchasdk-release-1.0.2:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\507385970992b6a45a2ff5d770ad8725\AndroidManifest.xml:7:5-9:41
+MERGED from [:captchasdk-release-1.0.2:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\507385970992b6a45a2ff5d770ad8725\AndroidManifest.xml:7:5-9:41
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47cf5b20e85758a8a2002929bb334ff9\AndroidManifest.xml:8:5-10:41
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\47cf5b20e85758a8a2002929bb334ff9\AndroidManifest.xml:8:5-10:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f86a6c6e42b951171cd1983203d9a1e9\AndroidManifest.xml:7:5-9:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f86a6c6e42b951171cd1983203d9a1e9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:4.1.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\61c323b22a251e62734f43f815d4c25c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:4.1.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\61c323b22a251e62734f43f815d4c25c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9a91f59839afe79c86dfc09567016cc5\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9a91f59839afe79c86dfc09567016cc5\AndroidManifest.xml:18:5-42
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\aaa1c430071b1b2ce4a5f6c2b2a985ff\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\aaa1c430071b1b2ce4a5f6c2b2a985ff\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c71f9df2fade418ac8330d21e6fd01ad\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c71f9df2fade418ac8330d21e6fd01ad\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a8019f5275ff37b9195449d354bd9a89\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a8019f5275ff37b9195449d354bd9a89\AndroidManifest.xml:20:5-44
+MERGED from [com.scwang.smart:refresh-layout-kernel:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6ac960ffc44c131f308273ac370efa5c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smart:refresh-layout-kernel:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6ac960ffc44c131f308273ac370efa5c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smart:refresh-header-classics:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\db71c3ffb7e435decf1c0bd8a2b319fc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smart:refresh-header-classics:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\db71c3ffb7e435decf1c0bd8a2b319fc\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smart:refresh-footer-classics:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5e0bf943381890e2cdc6cbbbcbc2d217\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smart:refresh-footer-classics:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5e0bf943381890e2cdc6cbbbcbc2d217\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\644d9bf41709e28d71d76167e339c25d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\644d9bf41709e28d71d76167e339c25d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f871d766d6560a8ce5fe2f7c67bc933c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f871d766d6560a8ce5fe2f7c67bc933c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c0169604cca2b3ebb2a881db2cb2c231\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c0169604cca2b3ebb2a881db2cb2c231\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9660ecbf6a29a29862238e23e4d3de1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9660ecbf6a29a29862238e23e4d3de1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6663f45c09a3a3dd2aaabddaa3b7b216\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6663f45c09a3a3dd2aaabddaa3b7b216\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\13ea27b69fefdde6b39a7045112db6ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\13ea27b69fefdde6b39a7045112db6ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e9dc900bd04bde011755403e78cb3a9a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e9dc900bd04bde011755403e78cb3a9a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6923aa4115be520b4236fddad7517ac3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6923aa4115be520b4236fddad7517ac3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fb92efe5949abfa2f41962ab8348bf2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fb92efe5949abfa2f41962ab8348bf2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cd1f02847055740ac653d0e044043185\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\cd1f02847055740ac653d0e044043185\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\95d046f4e4f0522bf72ab423ed5f8ae5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\95d046f4e4f0522bf72ab423ed5f8ae5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b1190903d88987316ab045a9f81c6292\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b1190903d88987316ab045a9f81c6292\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0c9ca210b074c54a737275c354243ecd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0c9ca210b074c54a737275c354243ecd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\98b4d265ed8bd52866b7a3b112e80015\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\98b4d265ed8bd52866b7a3b112e80015\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6a62e49dfe34a782eea59a155f8ca6b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6a62e49dfe34a782eea59a155f8ca6b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f71030adcb2e94a263651d2d05267fb2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f71030adcb2e94a263651d2d05267fb2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ff30c081aed2819161da33d8f602f509\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ff30c081aed2819161da33d8f602f509\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d040ff8cb650ebc50a49777719f60e50\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d040ff8cb650ebc50a49777719f60e50\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\92e1c37f14c678d1a5e0a2f5c2b67891\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\92e1c37f14c678d1a5e0a2f5c2b67891\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4e1f085c37457e67fbc182e6a2f8bcf2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4e1f085c37457e67fbc182e6a2f8bcf2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\07179d49a07fe7463f308a7dd0d91cc6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\07179d49a07fe7463f308a7dd0d91cc6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6373b73ce662c17307ce0851ea447d21\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6373b73ce662c17307ce0851ea447d21\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4c5420655858e2eee01bbe6f1f56ffcd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4c5420655858e2eee01bbe6f1f56ffcd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bfe6d065851d7f5d9c3d7178d5edd8d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bfe6d065851d7f5d9c3d7178d5edd8d1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37e68b8e70c4263c00d8940a65ea9e6b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\37e68b8e70c4263c00d8940a65ea9e6b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\00e018fcfefdf3d12bbc91a1ec1c1e30\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\00e018fcfefdf3d12bbc91a1ec1c1e30\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b82a9c36c1e72d471b0d9a8f4ccd620d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\b82a9c36c1e72d471b0d9a8f4ccd620d\AndroidManifest.xml:20:5-44
+MERGED from [com.yanzhenjie:loading:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1cb69121adfea5f0b740cedc1906714a\AndroidManifest.xml:21:5-23:41
+MERGED from [com.yanzhenjie:loading:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1cb69121adfea5f0b740cedc1906714a\AndroidManifest.xml:21:5-23:41
+MERGED from [com.contrarywind:wheelview:4.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c26f5a79a123dddffc63b80ac1eaae17\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:wheelview:4.0.6] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c26f5a79a123dddffc63b80ac1eaae17\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smart:refresh-drawable-paint:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e88d8dd2e268d0a78f2e252647c843c3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smart:refresh-drawable-paint:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e88d8dd2e268d0a78f2e252647c843c3\AndroidManifest.xml:7:5-9:41
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml
+INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml
+		ADDED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml
+		INJECTED from K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\app\src\main\AndroidManifest.xml
+activity#com.uuzuche.lib_zxing.activity.CaptureActivity
+ADDED from [:lib-zxing] K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\lib-zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:10:9-15:63
+	android:screenOrientation
+		ADDED from [:lib-zxing] K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\lib-zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:13:13-49
+	android:windowSoftInputMode
+		ADDED from [:lib-zxing] K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\lib-zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:15:13-60
+	android:configChanges
+		ADDED from [:lib-zxing] K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\lib-zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:12:13-63
+	android:theme
+		ADDED from [:lib-zxing] K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\lib-zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:14:13-63
+	android:name
+		ADDED from [:lib-zxing] K:\bizzan\bizzan\bizzan\Ztuo1.0-Bizzan\ztuo-android\ztuo-android\lib-zxing\build\intermediates\library_manifest\release\AndroidManifest.xml:11:13-74
+activity#com.yanzhenjie.permission.PermissionActivity
+ADDED from [com.yanzhenjie:permission:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2425a8045466708f10ddb31940505f2a\AndroidManifest.xml:25:9-30:75
+	android:launchMode
+		ADDED from [com.yanzhenjie:permission:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2425a8045466708f10ddb31940505f2a\AndroidManifest.xml:28:13-42
+	android:windowSoftInputMode
+		ADDED from [com.yanzhenjie:permission:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2425a8045466708f10ddb31940505f2a\AndroidManifest.xml:30:13-72
+	android:configChanges
+		ADDED from [com.yanzhenjie:permission:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2425a8045466708f10ddb31940505f2a\AndroidManifest.xml:27:13-74
+	android:theme
+		ADDED from [com.yanzhenjie:permission:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2425a8045466708f10ddb31940505f2a\AndroidManifest.xml:29:13-65
+	android:name
+		ADDED from [com.yanzhenjie:permission:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2425a8045466708f10ddb31940505f2a\AndroidManifest.xml:26:13-72
+activity#com.tencent.captchasdk.TCaptchaPopupActivity
+ADDED from [:captchasdk-release-1.0.2:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\507385970992b6a45a2ff5d770ad8725\AndroidManifest.xml:16:9-21:20
+	android:exported
+		ADDED from [:captchasdk-release-1.0.2:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\507385970992b6a45a2ff5d770ad8725\AndroidManifest.xml:19:13-37
+	android:configChanges
+		ADDED from [:captchasdk-release-1.0.2:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\507385970992b6a45a2ff5d770ad8725\AndroidManifest.xml:18:13-74
+	android:theme
+		ADDED from [:captchasdk-release-1.0.2:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\507385970992b6a45a2ff5d770ad8725\AndroidManifest.xml:20:13-63
+	android:name
+		ADDED from [:captchasdk-release-1.0.2:] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\507385970992b6a45a2ff5d770ad8725\AndroidManifest.xml:17:13-72

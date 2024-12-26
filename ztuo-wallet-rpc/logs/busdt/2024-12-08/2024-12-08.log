@@ -1,0 +1,1047 @@
+20:31:28.736 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@229f66ed: startup date [Sun Dec 08 20:31:28 CST 2024]; root of context hierarchy
+20:31:28.786 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+20:31:28.812 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:31:28.827 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4e0d55f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:31:29.282 [main] INFO  com.bizzan.bc.wallet.WalletRpcApplication - No active profile set, falling back to default profiles: default
+20:31:29.287 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13d9b21f: startup date [Sun Dec 08 20:31:29 CST 2024]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@229f66ed
+20:31:29.541 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=6b48f6be-70e7-37e2-9eba-f1153f853c84
+20:31:29.547 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:31:29.559 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$5a5647a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:31:29.586 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4e0d55f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:31:29.677 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 7002 (http)
+20:31:29.681 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7002"]
+20:31:29.687 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:31:29.687 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.43
+20:31:29.738 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:31:29.738 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 451 ms
+20:31:29.794 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+20:31:29.795 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+20:31:29.796 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:31:29.796 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:31:29.796 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+20:31:29.814 [main] INFO  com.bizzan.bc.wallet.config.RpcClientConfig - uri=http://bizzan:nJ6lQyVF6sClWG7JC0rneThNAfEwq1Jg@127.0.0.1:28332/
+20:31:29.814 [main] INFO  com.bizzan.bc.wallet.config.RpcClientConfig - =============================
+20:31:29.815 [main] INFO  com.bizzan.bc.wallet.config.RpcClientConfig - client=com.bizzan.bc.wallet.config.JsonrpcClient@3cae7b8b
+20:31:29.815 [main] INFO  com.bizzan.bc.wallet.config.RpcClientConfig - =============================
+20:31:30.288 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.130.139:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+20:31:30.304 [cluster-ClusterId{value='675591a207f3f85f2085951a', description='null'}-192.168.130.139:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1404}] to 192.168.130.139:27017
+20:31:30.305 [cluster-ClusterId{value='675591a207f3f85f2085951a', description='null'}-192.168.130.139:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.130.139:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 6]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, roundTripTimeNanos=265800}
+20:31:30.329 [main] WARN  o.s.data.mongodb.core.convert.CustomConversions - Registering converter from class java.math.BigDecimal to class org.bson.types.Decimal128 as reading converter although it doesn't convert from a Mongo supported type! You might wanna check you annotation setup at the converter implementation.
+20:31:30.330 [main] WARN  o.s.data.mongodb.core.convert.CustomConversions - Registering converter from class org.bson.types.Decimal128 to class java.math.BigDecimal as writing converter although it doesn't convert to a Mongo supported type! You might wanna check you annotation setup at the converter implementation.
+20:31:30.384 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.130.139:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+20:31:30.385 [cluster-ClusterId{value='675591a207f3f85f2085951b', description='null'}-192.168.130.139:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:1405}] to 192.168.130.139:27017
+20:31:30.387 [cluster-ClusterId{value='675591a207f3f85f2085951b', description='null'}-192.168.130.139:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.130.139:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 6]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, roundTripTimeNanos=253100}
+20:31:30.435 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+20:31:30.435 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+20:31:30.437 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+20:31:30.437 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+20:31:30.521 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13d9b21f: startup date [Sun Dec 08 20:31:29 CST 2024]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@229f66ed
+20:31:30.543 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/transfer],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.transfer(java.lang.String,java.math.BigDecimal)
+20:31:30.544 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/transfer-from-address],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.transferFromAddress(java.lang.String,java.lang.String,java.math.BigDecimal,java.math.BigDecimal)
+20:31:30.544 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/withdraw],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.withdraw(java.lang.String,java.math.BigDecimal,java.math.BigDecimal)
+20:31:30.544 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/height],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.getHeight()
+20:31:30.544 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/address/{account}],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.getNewAddress(java.lang.String)
+20:31:30.544 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/balance],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.balance()
+20:31:30.544 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/balance/{address}],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.balance(java.lang.String)
+20:31:30.545 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:31:30.545 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:31:30.558 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:31:30.558 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:31:30.574 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:31:31.473 [main] WARN  o.s.c.s.e.EurekaStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+20:31:31.487 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+20:31:31.490 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+20:31:31.490 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+20:31:31.490 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+20:31:31.491 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+20:31:31.495 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+20:31:31.499 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=13d9b21f,type=ConfigurationPropertiesRebinder]
+20:31:31.553 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+20:31:31.555 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+20:31:31.569 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+20:31:31.597 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+20:31:31.597 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+20:31:31.636 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+20:31:31.636 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+20:31:31.715 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+20:31:31.913 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+20:31:31.913 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+20:31:31.913 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+20:31:31.913 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+20:31:31.913 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+20:31:31.913 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+20:31:31.913 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+20:31:31.987 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+20:31:31.988 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+20:31:31.988 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+20:31:31.990 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1733661091990 with initial instances count: 12
+20:31:31.992 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application service-rpc-usdt with eureka with status UP
+20:31:31.992 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1733661091992, current=UP, previous=STARTING]
+20:31:31.992 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-RPC-USDT/192.168.101.11:service-rpc-usdt:7002: registering service...
+20:31:31.993 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+20:31:31.997 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+20:31:31.998 [main] INFO  com.bizzan.bc.wallet.event.ApplicationEvent - =======Initialize Block Data Watcher=====
+20:31:32.014 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:1406}] to 192.168.130.139:27017
+20:31:32.019 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-RPC-USDT/192.168.101.11:service-rpc-usdt:7002 - registration status: 204
+20:31:32.030 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+20:31:32.033 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+20:31:32.036 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+org.springframework.data.mongodb.UncategorizedMongoDbException: Query failed with error code 13 and error message 'command find requires authentication' on server 192.168.130.139:27017; nested exception is com.mongodb.MongoQueryException: Query failed with error code 13 and error message 'command find requires authentication' on server 192.168.130.139:27017
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:107)
+	at org.springframework.data.mongodb.core.MongoTemplate.potentiallyConvertRuntimeException(MongoTemplate.java:2128)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindOneInternal(MongoTemplate.java:1910)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFindOne(MongoTemplate.java:1718)
+	at org.springframework.data.mongodb.core.MongoTemplate.findOne(MongoTemplate.java:583)
+	at com.bizzan.bc.wallet.service.WatcherLogService.findOne(WatcherLogService.java:42)
+	at com.bizzan.bc.wallet.event.ApplicationEvent.onApplicationEvent(ApplicationEvent.java:33)
+	at com.bizzan.bc.wallet.event.ApplicationEvent.onApplicationEvent(ApplicationEvent.java:15)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:123)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:666)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:353)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1082)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1071)
+	at com.bizzan.bc.wallet.WalletRpcApplication.main(WalletRpcApplication.java:13)
+Caused by: com.mongodb.MongoQueryException: Query failed with error code 13 and error message 'command find requires authentication' on server 192.168.130.139:27017
+	at com.mongodb.operation.FindOperation$1.call(FindOperation.java:521)
+	at com.mongodb.operation.FindOperation$1.call(FindOperation.java:510)
+	at com.mongodb.operation.OperationHelper.withConnectionSource(OperationHelper.java:435)
+	at com.mongodb.operation.OperationHelper.withConnection(OperationHelper.java:408)
+	at com.mongodb.operation.FindOperation.execute(FindOperation.java:510)
+	at com.mongodb.operation.FindOperation.execute(FindOperation.java:81)
+	at com.mongodb.Mongo.execute(Mongo.java:836)
+	at com.mongodb.Mongo$2.execute(Mongo.java:823)
+	at com.mongodb.DBCursor.initializeCursor(DBCursor.java:870)
+	at com.mongodb.DBCursor.hasNext(DBCursor.java:142)
+	at com.mongodb.DBCursor.one(DBCursor.java:679)
+	at com.mongodb.DBCollection.findOne(DBCollection.java:833)
+	at com.mongodb.DBCollection.findOne(DBCollection.java:796)
+	at com.mongodb.DBCollection.findOne(DBCollection.java:743)
+	at org.springframework.data.mongodb.core.MongoTemplate$FindOneCallback.doInCollection(MongoTemplate.java:2179)
+	at org.springframework.data.mongodb.core.MongoTemplate$FindOneCallback.doInCollection(MongoTemplate.java:2163)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindOneInternal(MongoTemplate.java:1907)
+	... 20 common frames omitted
+20:31:32.036 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13d9b21f: startup date [Sun Dec 08 20:31:29 CST 2024]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@229f66ed
+20:31:32.037 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application service-rpc-usdt with eureka with status DOWN
+20:31:32.037 [main] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1733661092037, current=DOWN, previous=UP]
+20:31:32.037 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-RPC-USDT/192.168.101.11:service-rpc-usdt:7002: registering service...
+20:31:32.037 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+20:31:32.037 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+20:31:32.038 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+20:31:32.038 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+20:31:32.038 [main] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+20:31:32.038 [main] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+20:31:32.040 [main] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-RPC-USDT/192.168.101.11:service-rpc-usdt:7002 - deregister  status: 200
+20:31:32.041 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-RPC-USDT/192.168.101.11:service-rpc-usdt:7002 - registration status: 204
+20:31:32.043 [main] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+20:33:28.213 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@229f66ed: startup date [Sun Dec 08 20:33:28 CST 2024]; root of context hierarchy
+20:33:28.265 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+20:33:28.299 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:33:28.316 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4e0d55f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:33:28.762 [main] INFO  com.bizzan.bc.wallet.WalletRpcApplication - No active profile set, falling back to default profiles: default
+20:33:28.767 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c7a01b: startup date [Sun Dec 08 20:33:28 CST 2024]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@229f66ed
+20:33:29.015 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=6b48f6be-70e7-37e2-9eba-f1153f853c84
+20:33:29.021 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:33:29.029 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$5a5647a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:33:29.053 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4e0d55f4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:33:29.144 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 7002 (http)
+20:33:29.150 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7002"]
+20:33:29.157 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:33:29.157 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.43
+20:33:29.209 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:33:29.209 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 442 ms
+20:33:29.263 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+20:33:29.265 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+20:33:29.265 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:33:29.265 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:33:29.265 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+20:33:29.284 [main] INFO  com.bizzan.bc.wallet.config.RpcClientConfig - uri=http://bizzan:nJ6lQyVF6sClWG7JC0rneThNAfEwq1Jg@127.0.0.1:28332/
+20:33:29.285 [main] INFO  com.bizzan.bc.wallet.config.RpcClientConfig - =============================
+20:33:29.285 [main] INFO  com.bizzan.bc.wallet.config.RpcClientConfig - client=com.bizzan.bc.wallet.config.JsonrpcClient@50acf55d
+20:33:29.285 [main] INFO  com.bizzan.bc.wallet.config.RpcClientConfig - =============================
+20:33:29.771 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.130.139:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+20:33:29.788 [cluster-ClusterId{value='6755921907f3f840e8e7e715', description='null'}-192.168.130.139:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1407}] to 192.168.130.139:27017
+20:33:29.789 [cluster-ClusterId{value='6755921907f3f840e8e7e715', description='null'}-192.168.130.139:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.130.139:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 6]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, roundTripTimeNanos=308400}
+20:33:29.813 [main] WARN  o.s.data.mongodb.core.convert.CustomConversions - Registering converter from class java.math.BigDecimal to class org.bson.types.Decimal128 as reading converter although it doesn't convert from a Mongo supported type! You might wanna check you annotation setup at the converter implementation.
+20:33:29.814 [main] WARN  o.s.data.mongodb.core.convert.CustomConversions - Registering converter from class org.bson.types.Decimal128 to class java.math.BigDecimal as writing converter although it doesn't convert to a Mongo supported type! You might wanna check you annotation setup at the converter implementation.
+20:33:29.869 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.130.139:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+20:33:29.871 [cluster-ClusterId{value='6755921907f3f840e8e7e716', description='null'}-192.168.130.139:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:1408}] to 192.168.130.139:27017
+20:33:29.871 [cluster-ClusterId{value='6755921907f3f840e8e7e716', description='null'}-192.168.130.139:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.130.139:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 6]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, roundTripTimeNanos=260100}
+20:33:29.921 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+20:33:29.921 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+20:33:29.923 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+20:33:29.923 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+20:33:30.022 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c7a01b: startup date [Sun Dec 08 20:33:28 CST 2024]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@229f66ed
+20:33:30.044 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/transfer],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.transfer(java.lang.String,java.math.BigDecimal)
+20:33:30.044 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/transfer-from-address],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.transferFromAddress(java.lang.String,java.lang.String,java.math.BigDecimal,java.math.BigDecimal)
+20:33:30.044 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/address/{account}],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.getNewAddress(java.lang.String)
+20:33:30.044 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/balance/{address}],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.balance(java.lang.String)
+20:33:30.044 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/balance],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.balance()
+20:33:30.044 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/height],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.getHeight()
+20:33:30.044 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/withdraw],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.withdraw(java.lang.String,java.math.BigDecimal,java.math.BigDecimal)
+20:33:30.045 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:33:30.045 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:33:30.059 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:33:30.059 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:33:30.075 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:33:30.958 [main] WARN  o.s.c.s.e.EurekaStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+20:33:30.977 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+20:33:30.980 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+20:33:30.980 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+20:33:30.981 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+20:33:30.981 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+20:33:30.987 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+20:33:30.991 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=12c7a01b,type=ConfigurationPropertiesRebinder]
+20:33:31.044 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+20:33:31.046 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+20:33:31.061 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+20:33:31.090 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+20:33:31.090 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+20:33:31.124 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+20:33:31.124 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+20:33:31.209 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+20:33:31.364 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+20:33:31.365 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+20:33:31.365 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+20:33:31.365 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+20:33:31.365 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+20:33:31.365 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+20:33:31.365 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+20:33:31.441 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+20:33:31.442 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+20:33:31.443 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+20:33:31.444 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1733661211444 with initial instances count: 13
+20:33:31.446 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application service-rpc-usdt with eureka with status UP
+20:33:31.446 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1733661211446, current=UP, previous=STARTING]
+20:33:31.447 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-RPC-USDT/192.168.101.11:service-rpc-usdt:7002: registering service...
+20:33:31.447 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+20:33:31.452 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+20:33:31.453 [main] INFO  com.bizzan.bc.wallet.event.ApplicationEvent - =======Initialize Block Data Watcher=====
+20:33:31.468 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-RPC-USDT/192.168.101.11:service-rpc-usdt:7002 - registration status: 204
+20:33:31.469 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:1409}] to 192.168.130.139:27017
+20:33:31.478 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+20:33:31.482 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+20:33:31.486 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+org.springframework.data.mongodb.UncategorizedMongoDbException: Query failed with error code 13 and error message 'command find requires authentication' on server 192.168.130.139:27017; nested exception is com.mongodb.MongoQueryException: Query failed with error code 13 and error message 'command find requires authentication' on server 192.168.130.139:27017
+	at org.springframework.data.mongodb.core.MongoExceptionTranslator.translateExceptionIfPossible(MongoExceptionTranslator.java:107)
+	at org.springframework.data.mongodb.core.MongoTemplate.potentiallyConvertRuntimeException(MongoTemplate.java:2128)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindOneInternal(MongoTemplate.java:1910)
+	at org.springframework.data.mongodb.core.MongoTemplate.doFindOne(MongoTemplate.java:1718)
+	at org.springframework.data.mongodb.core.MongoTemplate.findOne(MongoTemplate.java:583)
+	at com.bizzan.bc.wallet.service.WatcherLogService.findOne(WatcherLogService.java:42)
+	at com.bizzan.bc.wallet.event.ApplicationEvent.onApplicationEvent(ApplicationEvent.java:33)
+	at com.bizzan.bc.wallet.event.ApplicationEvent.onApplicationEvent(ApplicationEvent.java:15)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:123)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:666)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:353)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1082)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1071)
+	at com.bizzan.bc.wallet.WalletRpcApplication.main(WalletRpcApplication.java:13)
+Caused by: com.mongodb.MongoQueryException: Query failed with error code 13 and error message 'command find requires authentication' on server 192.168.130.139:27017
+	at com.mongodb.operation.FindOperation$1.call(FindOperation.java:521)
+	at com.mongodb.operation.FindOperation$1.call(FindOperation.java:510)
+	at com.mongodb.operation.OperationHelper.withConnectionSource(OperationHelper.java:435)
+	at com.mongodb.operation.OperationHelper.withConnection(OperationHelper.java:408)
+	at com.mongodb.operation.FindOperation.execute(FindOperation.java:510)
+	at com.mongodb.operation.FindOperation.execute(FindOperation.java:81)
+	at com.mongodb.Mongo.execute(Mongo.java:836)
+	at com.mongodb.Mongo$2.execute(Mongo.java:823)
+	at com.mongodb.DBCursor.initializeCursor(DBCursor.java:870)
+	at com.mongodb.DBCursor.hasNext(DBCursor.java:142)
+	at com.mongodb.DBCursor.one(DBCursor.java:679)
+	at com.mongodb.DBCollection.findOne(DBCollection.java:833)
+	at com.mongodb.DBCollection.findOne(DBCollection.java:796)
+	at com.mongodb.DBCollection.findOne(DBCollection.java:743)
+	at org.springframework.data.mongodb.core.MongoTemplate$FindOneCallback.doInCollection(MongoTemplate.java:2179)
+	at org.springframework.data.mongodb.core.MongoTemplate$FindOneCallback.doInCollection(MongoTemplate.java:2163)
+	at org.springframework.data.mongodb.core.MongoTemplate.executeFindOneInternal(MongoTemplate.java:1907)
+	... 20 common frames omitted
+20:33:31.486 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12c7a01b: startup date [Sun Dec 08 20:33:28 CST 2024]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@229f66ed
+20:33:31.487 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application service-rpc-usdt with eureka with status DOWN
+20:33:31.487 [main] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1733661211487, current=DOWN, previous=UP]
+20:33:31.487 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-RPC-USDT/192.168.101.11:service-rpc-usdt:7002: registering service...
+20:33:31.487 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+20:33:31.487 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+20:33:31.488 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+20:33:31.488 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+20:33:31.488 [main] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+20:33:31.488 [main] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+20:33:31.490 [main] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-RPC-USDT/192.168.101.11:service-rpc-usdt:7002 - deregister  status: 200
+20:33:31.491 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-RPC-USDT/192.168.101.11:service-rpc-usdt:7002 - registration status: 204
+20:33:31.493 [main] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+20:34:23.321 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@31190526: startup date [Sun Dec 08 20:34:23 CST 2024]; root of context hierarchy
+20:34:23.371 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+20:34:23.398 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:34:23.415 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cf233840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:34:23.849 [main] INFO  com.bizzan.bc.wallet.WalletRpcApplication - No active profile set, falling back to default profiles: default
+20:34:23.854 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13d9b21f: startup date [Sun Dec 08 20:34:23 CST 2024]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@31190526
+20:34:24.071 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=36adaf48-3c01-3016-9084-bfad3f7bad6d
+20:34:24.077 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:34:24.085 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$86bb46c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:34:24.107 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cf233840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:34:24.189 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 7002 (http)
+20:34:24.194 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7002"]
+20:34:24.199 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:34:24.199 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.43
+20:34:24.252 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:34:24.252 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 398 ms
+20:34:24.309 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+20:34:24.311 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+20:34:24.311 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:34:24.311 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:34:24.311 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+20:34:24.328 [main] INFO  com.bizzan.bc.wallet.config.RpcClientConfig - uri=http://bizzan:nJ6lQyVF6sClWG7JC0rneThNAfEwq1Jg@127.0.0.1:28332/
+20:34:24.329 [main] INFO  com.bizzan.bc.wallet.config.RpcClientConfig - =============================
+20:34:24.329 [main] INFO  com.bizzan.bc.wallet.config.RpcClientConfig - client=com.bizzan.bc.wallet.config.JsonrpcClient@39e67516
+20:34:24.329 [main] INFO  com.bizzan.bc.wallet.config.RpcClientConfig - =============================
+20:34:24.564 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usdtWatcher': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'mongoTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalArgumentException: The connection string is invalid. Connection strings must start with 'mongodb://'
+20:34:24.565 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+20:34:24.570 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+20:34:24.574 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'usdtWatcher': Unsatisfied dependency expressed through field 'accountService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'mongoTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalArgumentException: The connection string is invalid. Connection strings must start with 'mongodb://'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:586)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:364)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1268)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:756)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:123)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:666)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:353)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1082)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1071)
+	at com.bizzan.bc.wallet.WalletRpcApplication.main(WalletRpcApplication.java:13)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountService': Unsatisfied dependency expressed through field 'mongoTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalArgumentException: The connection string is invalid. Connection strings must start with 'mongodb://'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:586)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:364)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1268)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:551)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:211)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:583)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoTemplate' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalArgumentException: The connection string is invalid. Connection strings must start with 'mongodb://'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1072)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:211)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:583)
+	... 32 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mongoDbFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/mongo/MongoDataAutoConfiguration.class]: Unsatisfied dependency expressed through method 'mongoDbFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalArgumentException: The connection string is invalid. Connection strings must start with 'mongodb://'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1072)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:211)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 45 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalArgumentException: The connection string is invalid. Connection strings must start with 'mongodb://'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1072)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:211)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1059)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 59 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalArgumentException: The connection string is invalid. Connection strings must start with 'mongodb://'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 72 common frames omitted
+Caused by: java.lang.IllegalArgumentException: The connection string is invalid. Connection strings must start with 'mongodb://'
+	at com.mongodb.ConnectionString.<init>(ConnectionString.java:231)
+	at com.mongodb.MongoClientURI.<init>(MongoClientURI.java:201)
+	at org.springframework.boot.autoconfigure.mongo.MongoProperties.createNetworkMongoClient(MongoProperties.java:255)
+	at org.springframework.boot.autoconfigure.mongo.MongoProperties.createMongoClient(MongoProperties.java:209)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration.mongo(MongoAutoConfiguration.java:74)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$ab656a1.CGLIB$mongo$1(<generated>)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$ab656a1$$FastClassBySpringCGLIB$$7d921086.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$ab656a1.mongo(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 73 common frames omitted
+20:34:56.696 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@31190526: startup date [Sun Dec 08 20:34:56 CST 2024]; root of context hierarchy
+20:34:56.741 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+20:34:56.764 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:34:56.780 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cf233840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:34:57.242 [main] INFO  com.bizzan.bc.wallet.WalletRpcApplication - No active profile set, falling back to default profiles: default
+20:34:57.247 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2826f61: startup date [Sun Dec 08 20:34:57 CST 2024]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@31190526
+20:34:57.471 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=6b48f6be-70e7-37e2-9eba-f1153f853c84
+20:34:57.477 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:34:57.487 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$86bb46c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:34:57.511 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cf233840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:34:57.593 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 7002 (http)
+20:34:57.598 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7002"]
+20:34:57.602 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:34:57.603 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.43
+20:34:57.647 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:34:57.647 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 400 ms
+20:34:57.701 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+20:34:57.702 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+20:34:57.703 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:34:57.703 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:34:57.703 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+20:34:57.720 [main] INFO  com.bizzan.bc.wallet.config.RpcClientConfig - uri=http://bizzan:nJ6lQyVF6sClWG7JC0rneThNAfEwq1Jg@127.0.0.1:28332/
+20:34:57.721 [main] INFO  com.bizzan.bc.wallet.config.RpcClientConfig - =============================
+20:34:57.721 [main] INFO  com.bizzan.bc.wallet.config.RpcClientConfig - client=com.bizzan.bc.wallet.config.JsonrpcClient@184dbacc
+20:34:57.721 [main] INFO  com.bizzan.bc.wallet.config.RpcClientConfig - =============================
+20:34:58.196 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.130.139:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+20:34:58.234 [main] WARN  o.s.data.mongodb.core.convert.CustomConversions - Registering converter from class java.math.BigDecimal to class org.bson.types.Decimal128 as reading converter although it doesn't convert from a Mongo supported type! You might wanna check you annotation setup at the converter implementation.
+20:34:58.234 [main] WARN  o.s.data.mongodb.core.convert.CustomConversions - Registering converter from class org.bson.types.Decimal128 to class java.math.BigDecimal as writing converter although it doesn't convert to a Mongo supported type! You might wanna check you annotation setup at the converter implementation.
+20:34:58.250 [cluster-ClusterId{value='6755927207f3f874fc52a809', description='null'}-192.168.130.139:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1410}] to 192.168.130.139:27017
+20:34:58.251 [cluster-ClusterId{value='6755927207f3f874fc52a809', description='null'}-192.168.130.139:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.130.139:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 6]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, roundTripTimeNanos=277200}
+20:34:58.286 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[192.168.130.139:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+20:34:58.297 [cluster-ClusterId{value='6755927207f3f874fc52a80a', description='null'}-192.168.130.139:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:1411}] to 192.168.130.139:27017
+20:34:58.298 [cluster-ClusterId{value='6755927207f3f874fc52a80a', description='null'}-192.168.130.139:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=192.168.130.139:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 6]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, roundTripTimeNanos=332000}
+20:34:58.338 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+20:34:58.338 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+20:34:58.339 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+20:34:58.339 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+20:34:58.429 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2826f61: startup date [Sun Dec 08 20:34:57 CST 2024]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@31190526
+20:34:58.449 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/transfer],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.transfer(java.lang.String,java.math.BigDecimal)
+20:34:58.450 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/transfer-from-address],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.transferFromAddress(java.lang.String,java.lang.String,java.math.BigDecimal,java.math.BigDecimal)
+20:34:58.450 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/withdraw],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.withdraw(java.lang.String,java.math.BigDecimal,java.math.BigDecimal)
+20:34:58.450 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/address/{account}],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.getNewAddress(java.lang.String)
+20:34:58.450 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/height],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.getHeight()
+20:34:58.450 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/balance],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.balance()
+20:34:58.450 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/rpc/balance/{address}],methods=[GET]}" onto public com.bizzan.bc.wallet.util.MessageResult com.bizzan.bc.wallet.controller.WalletController.balance(java.lang.String)
+20:34:58.451 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:34:58.451 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:34:58.467 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:34:58.467 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:34:58.483 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:34:59.359 [main] WARN  o.s.c.s.e.EurekaStarterDeprecationWarningAutoConfiguration - spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+20:34:59.374 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+20:34:59.376 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+20:34:59.376 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+20:34:59.377 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+20:34:59.377 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+20:34:59.382 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+20:34:59.386 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=2826f61,type=ConfigurationPropertiesRebinder]
+20:34:59.438 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+20:34:59.441 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+20:34:59.454 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+20:34:59.479 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+20:34:59.480 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+20:34:59.509 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+20:34:59.509 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+20:34:59.584 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+20:34:59.740 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+20:34:59.740 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+20:34:59.740 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+20:34:59.740 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+20:34:59.740 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+20:34:59.740 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+20:34:59.740 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+20:34:59.812 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+20:34:59.813 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+20:34:59.814 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+20:34:59.815 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1733661299815 with initial instances count: 13
+20:34:59.818 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application service-rpc-usdt with eureka with status UP
+20:34:59.818 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1733661299818, current=UP, previous=STARTING]
+20:34:59.819 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-RPC-USDT/192.168.101.11:service-rpc-usdt:7002: registering service...
+20:34:59.819 [main] INFO  o.s.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+20:34:59.823 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+20:34:59.825 [main] INFO  com.bizzan.bc.wallet.event.ApplicationEvent - =======Initialize Block Data Watcher=====
+20:34:59.841 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-RPC-USDT/192.168.101.11:service-rpc-usdt:7002 - registration status: 204
+20:34:59.855 [main] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:1412}] to 192.168.130.139:27017
+20:34:59.861 [main] INFO  com.bizzan.bc.wallet.event.ApplicationEvent - watcherLog:null
+20:35:01.897 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:35:01.897 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-7002"]
+20:35:01.905 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+20:35:01.911 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 7002 (http)
+20:35:01.911 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 7002
+20:35:01.912 [main] INFO  com.bizzan.bc.wallet.WalletRpcApplication - Started WalletRpcApplication in 5.711 seconds (JVM running for 6.145)
+20:35:03.928 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:35:06.894 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:35:08.918 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:35:11.894 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:35:13.920 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:35:16.894 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:35:18.921 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:35:21.894 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:35:23.915 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:35:26.895 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:35:28.934 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:35:31.896 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:35:33.932 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:35:36.897 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:35:38.932 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:35:41.897 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:35:43.929 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:35:46.898 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:35:48.921 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:35:51.899 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:35:53.933 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:35:56.899 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:35:58.933 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:36:01.900 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:36:03.930 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:36:06.912 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:36:08.941 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:36:11.912 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:36:13.938 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:36:16.912 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:36:18.942 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:36:21.926 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:36:23.956 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:36:26.932 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:36:28.964 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:36:31.932 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:36:33.971 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:36:36.936 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:36:38.963 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:36:41.936 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:36:43.954 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:36:46.936 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:36:48.960 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:36:51.936 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:36:53.965 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:36:56.936 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:36:58.952 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:37:01.937 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:37:03.968 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:37:06.938 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:37:08.966 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:37:11.939 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:37:13.962 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:37:16.940 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:37:18.974 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:37:21.940 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:37:23.978 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:37:26.940 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:37:28.964 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:37:31.941 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:37:33.973 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:37:36.941 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:37:38.973 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:37:41.941 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:37:43.970 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:37:46.941 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:37:48.970 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:37:51.942 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:37:53.962 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:37:56.946 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:37:58.973 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:38:01.946 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:38:03.983 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:38:06.946 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:38:08.970 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:38:11.946 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:38:13.966 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:38:16.952 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:38:18.985 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:38:21.953 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:38:23.970 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:38:26.953 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:38:28.972 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:38:31.953 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:38:33.986 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:38:36.953 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:38:38.973 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:38:41.956 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:38:43.971 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:38:46.957 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:38:48.981 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:38:51.958 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:38:53.977 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:38:56.958 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:38:58.981 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:39:01.958 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:39:03.990 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:39:06.958 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:39:09.002 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:39:11.958 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:39:13.992 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:39:16.959 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:39:18.972 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:39:21.959 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:39:23.978 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:39:26.959 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:39:29.004 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:39:31.960 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:39:33.985 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:39:36.960 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:39:38.989 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:39:41.961 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:39:43.977 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:39:46.961 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:39:48.989 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:39:51.962 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:39:53.981 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:39:56.963 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:39:58.984 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:39:59.753 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+20:40:01.963 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:40:03.994 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:40:06.964 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:40:08.988 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:40:11.964 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:40:13.996 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:40:16.964 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:40:19.000 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:40:21.964 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:40:23.989 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:40:26.965 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:40:28.992 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:40:31.965 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:40:33.992 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:40:36.965 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:40:38.987 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:40:41.965 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:40:43.993 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:40:46.966 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:40:48.988 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:40:51.967 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:40:53.997 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:40:56.976 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:40:59.009 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:41:01.977 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:41:04.022 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:41:06.978 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:41:09.006 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:41:11.979 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:41:14.002 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:41:16.979 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:41:19.018 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:41:21.979 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:41:24.004 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:41:26.980 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:41:29.018 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:41:31.981 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:41:34.015 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:41:36.982 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:41:39.012 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:41:41.984 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:41:44.008 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:41:46.984 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:41:49.017 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:41:51.984 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:41:54.008 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:41:56.984 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:41:59.003 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:42:01.984 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:42:04.016 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:42:06.985 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:42:09.018 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:42:11.986 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:42:14.013 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:42:16.987 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:42:19.021 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:42:21.987 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:42:24.017 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:42:26.994 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:42:29.021 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:42:31.995 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:42:34.030 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:42:36.995 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:42:39.030 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:42:41.995 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:42:44.024 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:42:46.995 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:42:49.033 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:42:51.995 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:42:54.020 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:42:56.996 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:42:59.031 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:43:01.996 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:43:04.030 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:43:06.997 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:43:09.022 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:43:11.998 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:43:14.021 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:43:16.998 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:43:19.025 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:43:21.999 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:43:24.037 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:43:27.000 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:43:29.025 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:43:32.001 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:43:34.027 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:43:37.001 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:43:39.041 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:43:42.014 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:43:44.042 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:43:47.014 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:43:49.046 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:43:52.014 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:43:54.056 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:43:57.015 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:43:59.040 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:44:02.016 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:44:04.044 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:44:07.017 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:44:09.048 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:44:12.018 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:44:14.043 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:44:17.019 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:44:19.041 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:44:22.019 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:44:24.059 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:44:27.019 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:44:29.039 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:44:32.027 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:44:34.054 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:44:37.027 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:44:39.053 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:44:42.028 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:44:44.050 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:44:47.029 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:44:49.053 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:44:52.029 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:44:54.056 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:44:57.030 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:44:59.051 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:44:59.754 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+20:45:02.030 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:45:04.076 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:45:07.030 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:45:09.065 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:45:12.030 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:45:14.052 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:45:17.031 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:45:19.065 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:45:22.031 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:45:24.057 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:45:27.031 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:45:29.056 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:45:32.031 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:45:34.059 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:45:37.032 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:45:39.055 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:45:42.032 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:45:44.075 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:45:47.032 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:45:49.056 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:45:52.033 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:45:54.066 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:45:57.033 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:45:59.066 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:46:02.034 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:46:04.062 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:46:07.035 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:46:09.063 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:46:12.036 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:46:14.071 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:46:17.036 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:46:19.065 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:46:22.037 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:46:24.058 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:46:27.038 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:46:29.079 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:46:32.038 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:46:34.069 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:46:37.039 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:46:39.066 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:46:42.039 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:46:44.066 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:46:47.040 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:46:49.077 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:46:52.040 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:46:54.074 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:46:57.040 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:46:59.073 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:47:02.040 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:47:04.076 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:47:07.041 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:47:09.071 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:47:12.053 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:47:14.079 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:47:17.053 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:47:19.085 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:47:22.053 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:47:24.086 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:47:27.054 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:47:29.094 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:47:32.066 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:47:34.096 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:47:37.079 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:47:39.113 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:47:42.080 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:47:44.115 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:47:47.080 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:47:49.108 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:47:52.080 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:47:54.105 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:47:57.080 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:47:59.114 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:48:02.080 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:48:04.102 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:48:07.080 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:48:09.102 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:48:12.080 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:48:14.104 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:48:17.080 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:48:19.112 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:48:22.080 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:48:24.101 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:48:27.080 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:48:29.111 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:48:32.080 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:48:34.112 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:48:37.080 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:48:39.098 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:48:42.081 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:48:44.107 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:48:47.081 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:48:49.115 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:48:52.081 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:48:54.098 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:48:57.082 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:48:59.105 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:49:02.083 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:49:04.111 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:49:07.084 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:49:09.105 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:49:12.085 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:49:14.112 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:49:17.086 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:49:19.119 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:49:22.086 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:49:24.114 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:49:27.086 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:49:29.114 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:49:32.087 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:49:34.127 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:49:37.098 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:49:39.126 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:49:42.098 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:49:44.124 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:49:47.098 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:49:49.131 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:49:52.098 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:49:54.128 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:49:57.112 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:49:59.139 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:49:59.755 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+20:50:02.113 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:50:04.148 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:50:07.113 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:50:09.146 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:50:12.114 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:50:14.156 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:50:17.115 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:50:19.141 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:50:22.116 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:50:24.146 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:50:27.122 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:50:29.151 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:50:32.122 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:50:34.147 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:50:37.123 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:50:39.145 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:50:42.123 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:50:44.155 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:50:47.124 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:50:49.149 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:50:52.125 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:50:54.153 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:50:57.125 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:50:59.155 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:51:02.131 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:51:04.158 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:51:07.131 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:51:09.163 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:51:12.132 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:51:14.157 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:51:17.132 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:51:19.162 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:51:22.140 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:51:24.161 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:51:27.140 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:51:29.169 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:51:32.141 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:51:34.178 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:51:37.141 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:51:39.163 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:51:42.142 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:51:44.171 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:51:47.143 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:51:49.172 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:51:52.144 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:51:54.183 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:51:57.144 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:51:59.161 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:52:02.144 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:52:04.174 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:52:07.159 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:52:09.192 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:52:12.159 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:52:14.186 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:52:17.159 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:52:19.179 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:52:22.161 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:52:24.188 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:52:27.161 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:52:29.205 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:52:32.161 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:52:34.193 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:52:37.162 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:52:39.203 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:52:42.163 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:52:44.204 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:52:47.164 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:52:49.199 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:52:52.165 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:52:54.194 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:52:57.165 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:52:59.205 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:53:02.177 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:53:04.210 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:53:07.177 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:53:09.209 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:53:12.178 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:53:14.201 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:53:17.179 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:53:19.213 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:53:22.180 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:53:24.219 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:53:27.181 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:53:29.209 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:53:32.182 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:53:34.203 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:53:37.183 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:53:39.217 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:53:42.184 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:53:44.216 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:53:47.185 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:53:49.215 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:53:52.190 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:53:54.214 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:53:57.191 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:53:59.224 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:54:02.191 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:54:04.216 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:54:07.191 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:54:09.222 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:54:12.191 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:54:14.215 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:54:17.191 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:54:19.226 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:54:22.191 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:54:24.224 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:54:27.192 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:54:29.217 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:54:32.192 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:54:34.221 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:54:37.192 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:54:39.223 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:54:42.193 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:54:44.215 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:54:47.193 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:54:49.214 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:54:52.194 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:54:54.222 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:54:57.195 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:54:59.218 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:54:59.757 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+20:55:02.196 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:55:04.217 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:55:07.196 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:55:09.227 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:55:12.196 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:55:14.227 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:55:15.641 [http-nio-7002-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+20:55:15.641 [http-nio-7002-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+20:55:15.683 [http-nio-7002-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 42 ms
+20:55:15.721 [http-nio-7002-exec-1] INFO  com.bizzan.bc.wallet.controller.WalletController - create new address :U600800zwbW
+20:55:17.197 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:55:17.760 [http-nio-7002-exec-1] INFO  com.bizzan.bc.wallet.config.JsonrpcClient - 创建新币账户出错：  accountName=U600800zwbW
+20:55:19.224 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:55:22.197 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:55:24.234 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:55:27.197 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:55:29.229 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:55:31.449 [http-nio-7002-exec-3] INFO  com.bizzan.bc.wallet.controller.WalletController - create new address :U600800Bmig
+20:55:32.197 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:55:33.492 [http-nio-7002-exec-3] INFO  com.bizzan.bc.wallet.config.JsonrpcClient - 创建新币账户出错：  accountName=U600800Bmig
+20:55:34.231 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:55:37.197 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:55:39.219 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:55:42.198 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:55:44.236 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:55:47.198 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:55:49.250 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:55:52.199 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - check...
+20:55:54.239 [Thread-15] INFO  com.bizzan.bc.wallet.component.Watcher - Already latest height: 0, networkBlockHeight: -2,nothing to do!
+20:55:54.684 [Thread-17] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2826f61: startup date [Sun Dec 08 20:34:57 CST 2024]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@31190526
+20:55:54.685 [Thread-17] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application service-rpc-usdt with eureka with status DOWN
+20:55:54.685 [Thread-17] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1733662554685, current=DOWN, previous=UP]
+20:55:54.686 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-RPC-USDT/192.168.101.11:service-rpc-usdt:7002: registering service...
+20:55:54.687 [Thread-17] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+20:55:54.688 [Thread-17] INFO  o.s.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+20:55:54.691 [Thread-17] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+20:55:54.692 [Thread-17] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+20:55:54.693 [Thread-17] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+20:55:54.694 [Thread-17] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+20:55:54.701 [Thread-17] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-RPC-USDT/192.168.101.11:service-rpc-usdt:7002 - deregister  status: 200
+20:55:54.703 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-RPC-USDT/192.168.101.11:service-rpc-usdt:7002 - registration status: 204
+20:55:54.709 [Thread-17] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
